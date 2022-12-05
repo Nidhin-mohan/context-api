@@ -4,7 +4,7 @@ import { useState, createContext } from "react";
 import Component2 from './Components/Component2';
 
 
-const UserContext = createContext();
+ export const UserContext = createContext();
 
 const App = () => {
   const [user, setUser] = useState("Jesse Hall");

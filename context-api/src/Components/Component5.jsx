@@ -1,9 +1,9 @@
 import {useContext} from "react"
-
+import { UserContext } from "../App";
 
 function Component5() {
 
-  const user = useContext(UserContext);     
+ const user = useContext(UserContext);     
   return (
     <>
       <h1>Component 5</h1>
